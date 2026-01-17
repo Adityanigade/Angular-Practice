@@ -1,0 +1,16 @@
+<p>conditions-switch works!</p>
+<button (click)="handleColor('red')">Red</button>
+<button (click)="handleColor('blue')">Blue</button>
+<button (click)="handleColor('green')">Green</button>
+<button (click)="handleColor('black')">Black</button>
+
+
+<div [ngSwitch]="color">
+
+  <h2 *ngSwitchCase="'red'" style="background-color: red;">Red</h2>
+  <h2 *ngSwitchCase="'blue'" style="background-color: blue;">Blue</h2>
+  <h2 *ngSwitchCase="'green'" style="background-color: green;">Green</h2>
+
+  <h2 *ngSwitchDefault="'black'" style="background-color: black; color: white;">No Match</h2>
+
+</div>

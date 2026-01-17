@@ -1,0 +1,37 @@
+<h1>Else If | Control Flow</h1>
+
+<button (click)="handleColor(1)">Red</button>
+<button (click)="handleColor(2)">Blue</button>
+<button (click)="handleColor(3)">Green</button>
+<button (click)="handleColor(10)">Other</button>
+
+<br><br>
+
+<input type="text" placeholder="enter color number" (input)="handleInput($event)">
+
+<br><br>
+
+
+<div
+  *ngIf="color == 1"
+  style="background-color:red; width:100px; height:100px;">
+</div>
+
+ <div
+    *ngIf="color == 2"
+    style="background-color:blue; width:100px; height:100px;">
+  </div>
+
+ <div
+    *ngIf="color == 3"
+    style="background-color:green; width:100px; height:100px;">
+  </div>
+
+
+  
+ <div
+    *ngelse="color == 4"
+   style="background-color:black; width:100px; height:100px;">
+  </div> 
+
+
