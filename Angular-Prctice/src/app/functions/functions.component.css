@@ -1,0 +1,46 @@
+#main{
+    border: 1px solid green;
+    width: 400px;
+    height: 250px;
+margin: 20px auto;
+text-align: center;
+border-radius: 10px;
+background-color: antiquewhite;
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+
+    
+} 
+h2{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin:10px auto;
+    background-color: beige;
+    align-items: center;
+    
+   
+}
+.bg-green{
+    background-color: green;
+
+}
+.bg-black{
+    background-color: black;
+}
+.bg-red{
+    background-color: red;
+}
+.btn:hover{
+    border: 1px solid white;
+}
